@@ -1,13 +1,23 @@
 package entity;
 
-public class Request {
+public class Command {
 
+    private String request;
     private Integer floor;
     private Direction direction;
 
-    public Request(Integer floor, Direction direction) {
+    public Command(String request, Integer floor, Direction direction) {
+        this.request = request;
         this.floor = floor;
         this.direction = direction;
+    }
+
+    public String getRequest() {
+        return request;
+    }
+
+    public void setRequest(String request) {
+        this.request = request;
     }
 
     public Integer getFloor() {
