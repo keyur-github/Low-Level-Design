@@ -46,7 +46,7 @@ public class Elevator {
         } else {
             openDoors();
             this.requests.removeFirst();
-            if(this.requests != null && !this.requests.isEmpty()) {
+            if(this.requests == null || this.requests.isEmpty()) {
                 this.direction = Direction.IDLE;
             }
         }

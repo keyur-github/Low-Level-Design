@@ -10,7 +10,7 @@ public class ElevatorController {
 
     public ElevatorController(Integer numElevators, Integer minFloor, Integer maxFloor) {
         for(int i = 1; i <= numElevators; i++) {
-            elevators.add(new Elevator(Integer.valueOf(i), minFloor, maxFloor));
+            elevators.add(new Elevator(i, minFloor, maxFloor));
         }
     }
 

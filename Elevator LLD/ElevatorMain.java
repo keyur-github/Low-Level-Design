@@ -17,11 +17,11 @@ public class ElevatorMain {
                 )
         );
         System.out.println(elevatorController.getElevatorFloor(1));
-        System.out.println(elevatorController.getElevatorFloor(2));
+//        System.out.println(elevatorController.getElevatorFloor(2));
         System.out.println(elevatorController.getElevatorState(1));
-        System.out.println(elevatorController.getElevatorState(2));
+//        System.out.println(elevatorController.getElevatorState(2));
         System.out.println(elevatorController.getElevatorDirection(1));
-        System.out.println(elevatorController.getElevatorDirection(2));
+//        System.out.println(elevatorController.getElevatorDirection(2));
 
 
     }
